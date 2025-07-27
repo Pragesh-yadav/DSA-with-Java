@@ -9,7 +9,7 @@ public class DayInMonth {
             case 1:
                 System.out.println("January");
                 System.out.println("31 days");
-                break;
+                break; // if we not provide break statement then it will fall through cases and print next case and then continue till across the break statement.
             case 2:
                 System.out.println("Febuary");
                 System.out.println("28 days");
