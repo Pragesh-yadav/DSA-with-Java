@@ -6,19 +6,20 @@ public class VowelOrConst {
         char ch = sc.next().charAt(0);
 
         switch (ch) {
-            case 'a', 'e', 'i', 'o', 'u': //both case is correct you can write both ways.
-            /* case 'a':
-            case 'e':
-            case 'i':
-            case 'o':
-            case 'u': */
+            case 'a', 'e', 'i', 'o', 'u': // both case is correct you can write both ways.
+                /*
+                 * case 'a':
+                 * case 'e':
+                 * case 'i':
+                 * case 'o':
+                 * case 'u':
+                 */
                 System.out.println("Vowel");
                 break;
-            
-        
+
             default:
                 System.out.println("Consonant");
         }
     }
-    
+
 }
